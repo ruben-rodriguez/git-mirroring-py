@@ -1,0 +1,13 @@
+#Virtualenv
+bin
+lib
+include
+.Python
+
+#pip
+pip-selfcheck.json
+
+#Application temps
+repos_data.json
+user_data.json
+response.json
