@@ -10,13 +10,13 @@ $: python git-mirror.py <GitHub username> <Path to store git repositories>
 Clone this repository:
 
 ```sh
-$: git clone https://github.com/ermus19/git-mirror
+$: git clone https://github.com/ermus19/git-mirroring-py
 ```
 
 [Optional]: Create a virtualenv inside the cloned repository and activate it:
 
 ```sh
-$: cd git-mirror
+$: cd git-mirrororing-py
 $: virtualenv . --python=python3
 $: source bin/activate
 ```
