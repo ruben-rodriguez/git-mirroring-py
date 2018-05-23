@@ -160,7 +160,7 @@ def do_mirror(username, path):
                 repo_name = repo_split[len(repo_split) - 1]
 
                 git_check = 'git -C ' + path + '/' + repo_name + ' rev-parse'
-                git_clone = 'git -C ' + path + ' clone ' + repo
+                git_clone = 'git -C ' + path + ' clone --recursive ' + repo
                 git_pull = 'git -C ' + path + '/' + repo_name + ' pull --all'
 
                 print("\tWorking on " + repo_name + " repository...")
